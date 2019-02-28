@@ -297,10 +297,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.js"></script>
 <link rel="apple-touch-icon" href="https://www.playerup.com/styles/default/xenforo/logo2.og.png" />
 <link rel="canonical" href="https://www.playerup.com/threads/galaxy-skin.3799926/" /><meta property="og:site_name" content="PlayerUp Accounts Marketplace. Player 2 Player Secure Platform." />
-<meta property="og:image" content="https://www.playerup.com/data/avatars/m/378/378362.jpg?1541011165" />
-<meta property="og:image" content="https://www.playerup.com/styles/default/xenforo/logo2.og.png" />
-<meta property="og:type" content="article" />
-<meta property="og:description" content="Hello everyone. I have a Galaxy Skin for FortNite for sell. I’m not sure an actual price it goes for so I’m negotiable. Me and my wife both got Notes &amp;..." />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.js"></script>
 
 <meta name="theme-color" content="#217BD5">
@@ -531,202 +527,9 @@ i.fa.fa-clock-o {
 <div class="pageContent">
 <span class="helper"></span>
 </div>
-<div class="pageWidth">
-<h3 id="loginBarHandle">
-<label for="LoginControl"><a href="login/" class="concealed noOutline">Log in or Sign up</a></label>
-</h3>
-</div>
 </div>
 <div id="uix_paneContainer" class="off-canvas-wrapper">
-<aside class="uix_sidePane left-off-canvas-content">
-<div class="uix_sidePane_content uix_offCanvasNavigation">
-<ul>
 
-<li class="navTab home"><a href="https://www.playerup.com" class="navLink">Home</a></li>
-
-
-<li class="navTab PopupClosed"><a href="http://www.playerup.com/pages/middleman-escrow" class="navLink">Middleman</a></li>
-
-
-
-
-<li class="navTab forums selected">
-<a href="https://www.playerup.com/" class="navLink">Forums</a>
-<a href="https://www.playerup.com/" class="SplitCtrl" rel="subMenu"></a>
-<div class="subMenu">
-<ul class="blockLinksList">
-<li><a href="find-new/posts" rel="nofollow">Recent Posts</a></li>
-
-</ul>
-</div>
-</li>
-
-<li class="navTab resources ">
-<a href="https://www.playerup.com/shop/" class="navLink">Shop</a>
-<a href="https://www.playerup.com/shop/" class="SplitCtrl" rel="subMenu"></a>
-<div class="subMenu">
-<ul class="secondaryContent blockLinksList">
-<li><a href="shop/authors">Most Active Sellers</a></li>
-</ul>
-</div>
-</li>
-<li class="navTab BR_supportTicket ">
-<a href="https://www.playerup.com/support-tickets/knowledge-base" class="navLink">Support</a>
-<a href="https://www.playerup.com/support-tickets/knowledge-base" class="SplitCtrl" rel="subMenu"></a>
-<div class="subMenu">
-<ul class="secondaryContent blockLinksList">
-<li><a href="support-tickets/open">Submit Ticket</a></li>
-<li><a href="support-tickets/knowledge-base">Knowledge Base</a></li>
-</ul>
-</div>
-</li>
-
-<li class="navTab members ">
-<a href="https://www.playerup.com/members/" class="navLink">Members</a>
-<a href="https://www.playerup.com/members/" class="SplitCtrl" rel="subMenu"></a>
-<div class="subMenu">
-<ul class="blockLinksList">
-<li><a href="members/">Notable Members</a></li>
-<li><a href="online/">Current Visitors</a></li>
-<li><a href="members/banned">Banned Members</a></li>
-</ul>
-</div>
-</li>
-
-
-<li class="navTab PopupClosed"><a href="pages/membership" class="navLink">Upgrade</a></li>
-</ul>
-</div>
-</aside>
-<aside class="uix_sidePane right-off-canvas-content">
-<script>
-	var uix_offCanvasCurrentTab = 'uix_offCanvasVisitorMenu';
-	var uix_offCanvasVisitorConvoLoad = true;
-	var uix_offCanvasVisitorAlertLoad = true;
-	function uix_offCanvasVisitorTab(ele, id) {
-		jQuery('#uix_offcanvasVisitorTabs .navTab').removeClass('selected');
-		jQuery('.uix_sidePane_content.uix_offCanvasVisitorTabs ul').removeClass('activeTab').removeClass('leftTab').removeClass('rightTab');
-		
-		jQuery(ele).parent().addClass('selected');
-		jQuery('#' + id).addClass('activeTab');
-		if (id == 'uix_offCanvasVisitorMenu') {
-			if (uix_offCanvasCurrentTab == 'uix_offCanvasVisitorAlert') {
-				jQuery('#uix_offCanvasVisitorConvo').css('opacity', 0)
-				window.setTimeout(function(){jQuery('#uix_offCanvasVisitorConvo').css('opacity', 1);}, 300);
-			}
-			jQuery('#uix_offCanvasVisitorConvo').addClass('rightTab');
-			jQuery('#uix_offCanvasVisitorAlert').addClass('rightTab');
-		} else if (id == 'uix_offCanvasVisitorConvo') {
-			if (uix_offCanvasVisitorConvoLoad){
-				uix_offCanvasVisitorConvoLoad = false;
-				$('#uix_offCanvasVisitorConvo .listPlaceholder').load('conversations/popup #content div:not(.sidebar) .secondaryContent li:lt(5)');
-			}
-			jQuery('#uix_offCanvasVisitorMenu').addClass('leftTab');
-			jQuery('#uix_offCanvasVisitorAlert').addClass('rightTab');
-			
-			//XenForo.balloonCounterUpdate($('#VisitorExtraMenu_Counter'), 0);
-			//XenForo.balloonCounterUpdate($('#uix_VisitorExtraMenu_Counter'), 0);
-			//XenForo.balloonCounterUpdate($('#ConversationsMenu_Counter'), 0);
-			uix.fn.syncBaloon($('#ConversationsMenu_Counter'), $('#uix_ConversationsMenu_Counter'));
-		} else if (id == 'uix_offCanvasVisitorAlert') {
-			if (uix_offCanvasVisitorAlertLoad){
-				uix_offCanvasVisitorAlertLoad = false;
-				$('#uix_offCanvasVisitorAlert .listPlaceholder').load('account/alerts-popup #content div:not(.sidebar) .secondaryContent li:lt(5)');
-			}
-			
-			if (uix_offCanvasCurrentTab == 'uix_offCanvasVisitorMenu') {
-				jQuery('#uix_offCanvasVisitorConvo').css('opacity', 0)
-				window.setTimeout(function(){jQuery('#uix_offCanvasVisitorConvo').css('opacity', 1);}, 300);
-			}
-			jQuery('#uix_offCanvasVisitorConvo').addClass('leftTab');
-			jQuery('#uix_offCanvasVisitorMenu').addClass('leftTab');
-			
-			XenForo.balloonCounterUpdate($('#VisitorExtraMenu_Counter'), 0);
-			XenForo.balloonCounterUpdate($('#uix_VisitorExtraMenu_Counter'), 0);
-			XenForo.balloonCounterUpdate($('#AlertsMenu_Counter'), 0);
-			uix.fn.syncBaloon($('#AlertsMenu_Counter'), $('#uix_AlertsMenu_Counter'));
-		}
-		
-		uix_offCanvasCurrentTab = id;
-	}	
-</script>
-<div class="uix_sidePane_content uix_offCanvasVisitorTabs">
-<div class="uix_offCanvasTabsWrapper">
-<ul id="uix_offcanvasVisitorTabs" class="uix_offcanvasTabs">
-<li class="navTab selected"><a class="navLink" onclick="uix_offCanvasVisitorTab(this, 'uix_offCanvasVisitorMenu')"></a></li>
-<li class="navTab">
-<a onclick="uix_offCanvasVisitorTab(this, 'uix_offCanvasVisitorConvo')" class="navLink">
-<i class="uix_icon uix_icon-inbox"></i>
-<strong class="itemCount Zero" id="uix_ConversationsMenu_Counter" data-text="You have %d new unread conversation(s).">
-<span class="Total">0</span>
-</strong>
-</a>
-</li>
-<li class="navTab">
-<a onclick="uix_offCanvasVisitorTab(this, 'uix_offCanvasVisitorAlert')" class="navLink">
-<i class="uix_icon uix_icon-alerts"></i>
-<strong class="itemCount Zero" id="uix_AlertsMenu_Counter" data-text="You have %d new alert(s).">
-<span class="Total">0</span>
-</strong>
-</a>
-</li>
-</ul>
-</div>
-<div class="uix_offCanvasPanes">
-<ul class="activeTab" id="uix_offCanvasVisitorMenu">
-<li class="navTab full">
-<div class="primaryContent menuHeader">
-<a class="avatar Av0m NoOverlay plainImage" title="View your profile" data-avatarhtml="true"><span class="img m" style="background-image: url('styles/playerup/xenforo/avatars/avatar_m.png')"></span></a>
-<h3><a href="members/0/" class="concealed" title="View your profile"></a></h3>
-<div class="muted">Guest</div>
-</div>
-</li>
-<li class="fl navTab"><a class="navLink" href="members/0/">Your Profile Page</a></li>
-<li class="navTab"><a class="navLink" href="account/contact-details">Contact Details</a></li>
-<li class="navTab"><a class="navLink" href="account/privacy">Privacy</a></li>
-<li class="navTab"><a class="navLink" href="account/preferences" class="OverlayTrigger">Preferences</a></li>
-<li class="navTab"><a class="navLink" href="account/alert-preferences">Alert Preferences</a></li>
-<li class="navTab"><a class="navLink" href="account/external-accounts">External Accounts</a></li>
-<li class="navTab"><a class="navLink" href="account/security">Password</a></li>
-
-<li class="navTab"><a class="navLink" href="account/likes">Likes You've Received</a></li>
-<li class="navTab"><a class="navLink" href="search/member?user_id=0">Your Content</a></li>
-<li class="navTab"><a class="navLink" href="account/following">People You Follow</a></li>
-<li class="navTab"><a class="navLink" href="account/ignored">People You Ignore</a></li>
-<li><a href="support-tickets/">Your Tickets</a></li>
-<li class="navTab"><a href="logout/" class="LogOut navLink">Log Out</a></li>
-<li class="navTab full">
-<form action="account/toggle-visibility" method="post" class="AutoValidator visibilityForm navLink">
-<label><input type="checkbox" name="visible" value="1" class="SubmitOnChange" checked="checked" />
-Show online status</label>
-<input type="hidden" name="_xfToken" value="" />
-</form>
-</li>
-</ul>
-<ul id="uix_offCanvasVisitorConvo" class="rightTab">
-<div class="menuHeader primaryContent">
-<h3>
-<span class="Progress InProgress"></span>
-<a href="conversations/" class="concealed">Conversations</a>
-</h3>
-</div>
-<div class="listPlaceholder"></div>
-<li class="navTab"><a class="navLink" href="conversations/">Show All...</a></li>
-</ul>
-<ul id="uix_offCanvasVisitorAlert" class="rightTab">
-<div class="menuHeader primaryContent">
-<h3>
-<span class="Progress InProgress"></span>
-<a href="account/alerts" class="concealed">Alerts</a>
-</h3>
-</div>
-<div class="listPlaceholder"></div>
-<li class="navTab"><a href="account/alert-preferences" class="floatLink navLink">Alert Preferences</a></li>
-<li class="navTab"><a class="navLink" href="account/alerts">Show All...</a></li>
-</ul>
-</div>
-</div>
-</aside>
 <div class="inner-wrapper">
 <a href="#" class="exit-off-canvas"></a>
 <div class="uix_wrapperFix" style="height: 1px; margin-bottom: -1px;"></div>
@@ -1263,7 +1066,6 @@ Account Screenshots<br /><blockquote class="imgur-embed-pub" lang="en" data-id="
 </article>
 </div>
 <div class="messageDetails">
-<a href="posts/9835163/" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/9835163/permalink">#1</a>
 <span class="item muted">
 <span class="authorEnd">OGUser,</span>
 <a href="posts/9835163/" title="Permalink" class="datePermalink"><span class="DateTime" title="1/20/19 at 12:28 PM">2/27/19</span></a>
@@ -1280,49 +1082,10 @@ Account Screenshots<br /><blockquote class="imgur-embed-pub" lang="en" data-id="
 <div class="linkGroup" style="display: none"><a href="javascript:" class="muted JsOnly DisplayIgnoredContent Tooltip" title="Show hidden content by ">Show Ignored Content</a></div>
 </div>
 
-<form action="login/login" method="post" class="xenForm eAuth" id="login" style="display:none">
-<ul id="eAuthUnit">
-<li><a href="register/facebook?reg=1" class="fbLogin" tabindex="110"><span>Log in with Facebook</span></a></li>
-<li><a href="register/twitter?reg=1" class="twitterLogin" tabindex="110"><span>Log in with Twitter</span></a></li>
-<li><span class="googleLogin GoogleLogin JsOnly" tabindex="110" data-client-id="1056747526610.apps.googleusercontent.com" data-redirect-url="register/google?code=__CODE__&amp;csrf=i4p45tJPS_8UKoLI"><span>Log in with Google</span></span></li>
-<li><a href="register/steam?reg=1" class="steamLogin" tabindex="110"><span>Log in with Steam</span></a></li>
-</ul>
-<div class="ctrlWrapper">
-<dl class="ctrlUnit">
-<dt><label for="LoginControl">Your name or email address:</label></dt>
-<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
-</dl>
-<dl class="ctrlUnit">
-<dt>
-<label for="ctrl_password">Do you already have an account?</label>
-</dt>
-<dd>
-<ul>
-<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
-No, create an account now.</label></li>
-<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
-Yes, my password is:</label></li>
-<li id="ctrl_registered_Disabler">
-<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
-<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Forgot your password?</a></div>
-</li>
-</ul>
-</dd>
-</dl>
-<dl class="ctrlUnit submitUnit">
-<dt></dt>
-<dd>
-<input type="submit" class="button primary" value="Log in" tabindex="104" data-loginPhrase="Log in" data-signupPhrase="Sign up" />
-<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Stay logged in</label>
-</dd>
-</dl>
-    </div>
-</form>
 </div>
 <div class="breadBoxBottom">
 <nav>
 <fieldset class="breadcrumb">
-<a href="misc/quick-navigation-menu?selected=node-678" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><i class="uix_icon uix_icon-sitemap"></i></a>
 <div class="boardTitle"><strong>PlayerUp Accounts Marketplace. Player 2 Player Secure Platform.</strong></div>
 <span class="crumbs">
 <span class="crust homeCrumb">
