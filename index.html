@@ -1,1 +1,1556 @@
 
+<!DOCTYPE html>
+<html id="XenForo" lang="en-US" dir="LTR" class="Public NoJs LoggedOut NoSidebar  Responsive hasTabLinks not_hasSearch navStyle_0 pageStyle_1 hasFlexbox" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<base href="https://www.playerup.com/" />
+<script>
+			var _b = document.getElementsByTagName('base')[0], _bH = "https://www.playerup.com/";
+			if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
+<title>&nbsp;Selling - &nbsp;Ultimate/Limited Edition</title>
+<noscript><style>.JsOnly, .jsOnly { display: none !important; }</style></noscript>
+<link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=102&amp;dir=LTR&amp;d=1551297549" />
+<link rel="stylesheet" href="css.php?css=BRAMB_trigger,GoToTop_purecss,RT_UserOnlineRibbon,RT_UserOnlineRibbon_Responsive,SV_rrssbDefault,ajaxsearchboxstyle,bb_code,custom_field_view,facebook,fc_custom_changes,fc_header_footer,fc_toggle_width,google,login_bar,message,message_user_info,moderator_bar,steam_login_bar,thread_view,thread_view_watchers,twitter,uix_extendedFooter,xcxt_postbit,xcxt_postbit_stats_numbers&amp;style=102&amp;dir=LTR&amp;d=1551297549" />
+<link rel="stylesheet" href="css.php?css=uix,uiflex&amp;style=102&amp;dir=LTR&amp;d=1551297549" />
+<style>
+
+	
+		.pageWidth {
+			
+				max-width: 976px;
+			
+		}
+	
+	
+		.Menu.uix_megaMenu
+		{
+			
+				max-width: 976px;
+			
+		}
+		
+		
+		
+	
+</style>
+<link rel="stylesheet" href="css.php?css=EXTRA&amp;style=102&amp;dir=LTR&amp;d=1551297549" />
+<link href="styles/playerup/uix/css/font-awesome.min.css" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:400,700' rel='stylesheet' type='text/css'>
+<script src="js/jquery/jquery-1.11.0.min.js"></script>
+<script src="js/ForumCube/CFieldsPost/CFieldPost.js?_v=58e11cf1"></script>
+<script src="js/ForumCube/SiteMapToggle/sitetoggle.js?_v=58e11cf1"></script>
+<script src="js/ForumCube/GrabFormData/fc1-grabformdataa.js?_v=58e11cf1"></script>
+<script src="js/sedo/gototop/xen.ui.totop.js?_v=58e11cf1"></script>
+<script>
+	uix = {
+		elm: {},
+		fn:{},
+		init: function(){
+			if (uix.betaMode) {
+				console.group('uix.%cinit()', 'color:#3498DB');
+			}
+			for(var x=0;x<uix.events.init.length;x++){
+				uix.events.init[x]()
+		  	}
+		  	console.groupEnd('uix.%cinit()','color:#3498DB')
+		},
+	  	events: {init:[]},
+	  	on: function(event, fn){
+	  		if(event=='init'){
+	  			uix.events.init.push(fn)
+	  		}
+	  	},
+	  
+		betaMode				: parseInt('0'),
+		jsPathUsed				: 'playerup/playerup',
+		jsGlobal				: parseInt('0'),
+		
+	  
+	  	version					: '1.5.0.1',
+	  	jsHeadVersion				: '1.5.0.1',
+	  	addonVersion				: '1000572',
+	  	contentTemplate				: 'thread_view',
+	  
+		globalPadding 				: parseInt('15px'),
+		sidebarWidth				: parseInt('250px'),
+		mainContainerMargin  	        	: '265px',
+		maxResponsiveWideWidth   		: parseInt('800px'),
+		maxResponsiveMediumWidth 		: parseInt('610px'),
+		maxResponsiveNarrowWidth 		: parseInt('480px'),
+		sidebarMaxResponsiveWidth		: parseInt(''),
+		
+			responsiveMessageBreakpoint		: parseInt('610px'),
+		
+		sidebarMaxResponsiveWidthStr		: '',
+		
+			offCanvasTriggerWidth		: parseInt('800px'),
+		
+	  
+		jumpToFixedDelayHide			: parseInt('0'),
+	  
+		stickyNavigationMinWidth 		: parseInt('0'),
+		stickyNavigationMinHeight		: parseInt('600'),
+		stickyNavigationMaxWidth 		: parseInt('0'),
+		stickyNavigationMaxHeight		: parseInt('0'),
+		stickyNavigationPortraitMinWidth 	: parseInt('320'),
+		stickyNavigationPortraitMinHeight	: parseInt('500'),
+		stickyNavigationPortraitMaxWidth 	: parseInt('0'),
+		stickyNavigationPortraitMaxHeight	: parseInt('0'),
+		stickySidebar 				: 0,
+		
+			sidebarInnerFloat		: "right",
+		
+		RTL					: 0,
+		stickyItems 				: {},
+		stickyGlobalMinimumPosition		: parseInt('200px'),
+		stickyGlobalScrollUp			: parseInt('0'),
+		stickyDisableIOSThirdParty		: parseInt('1'),
+		
+		searchMinimalSize			: parseInt('0'),
+		
+		searchPosition				: parseInt('0'),
+		
+		nodeStyle				: parseInt('0'),
+		pageStyle				: parseInt('1'),
+		
+		enableBorderCheck			: parseInt('1'),
+		enableULManager				: parseInt('1'),
+		
+		threadSlidingAvatar			: parseInt('0'),
+		threadSlidingExtra			: parseInt('0'),
+		threadSlidingHover			: parseInt('0'),
+		threadSlidingStaffShow			: parseInt('0'),
+		threadSlidingGlobalEnable		: parseInt('1'),
+		
+		signatureHidingEnabled			: parseInt('0'),
+		signatureHidingEnabledAddon		: parseInt('1'),
+		signatureMaxHeight			: parseInt('100px'),
+		signatureHoverEnabled			: parseInt('0'),
+		
+		enableStickyFooter 			: parseInt('1'),
+		stickyFooterBottomOffset 		: parseInt('15px') * 2,
+		
+		
+			sidebarStickyBottomOffset	: parseInt(0),
+		
+	  
+	  	
+			offCanvasSidebar			: 1,
+
+			
+				offCanvasSidebarVisitorTabs		: 1,
+			
+		
+		
+	  
+		reinsertWelcomeBlock			: parseInt('0'),
+	  
+		sidebarCookieExpire			: '',
+		canCollapseSidebar			: '',
+		
+		cookiePrefix				: 'xf_',
+		sidebarLocation 			: parseInt('0'),
+		
+		collapsibleSidebar			: parseInt('0'),
+		collapsedNodesDefault			: '',
+		widthToggleUpper			: '94%',
+		widthToggleLower			: '976px',
+		
+			toggleWidthEnabled		: parseInt('1'),
+		
+		collapsibleNodes			: parseInt('1'),
+		collapsibleSticky			: parseInt('0'),
+		ajaxWidthToggleLink			: 'uix/toggle-width',
+		ajaxStickyThreadToggleLink		: 'uix/toggle-sticky-threads',
+		ajaxStickyThreadExpandLink		: 'uix/expand-sticky-threads',
+		ajaxStickyThreadCollapseLink		: 'uix/collapse-sticky-threads',
+		ajaxSidebarToggleLink			: 'uix/toggle-sidebar',
+		
+		user					: {
+								'themeName'		: 'PlayerUp - Live Design new',
+								'-themeParents'		: '102,96,0',
+								'-themeModified'	: '1551297549',
+								'-themeSelectable'	: '1',
+								languageName		: 'English (US)',
+								stickyEnableUserbar	: (parseInt('') == parseInt('')) ? parseInt('') : true,
+								stickyEnableNav		: (parseInt('') == parseInt('')) ? parseInt('') : true,
+								stickyEnableSidebar	: (parseInt('') == parseInt('')) ? parseInt('') : true,
+								widthToggleState	: (parseInt('') == parseInt('')) ? parseInt('') : parseInt('0'),
+								stickyThreadsState	: (parseInt('') == parseInt('')) ? (parseInt('') > 0) : 0,
+								
+									sidebarState	: 0,
+								
+								
+									collapseUserInfo : 1,
+								
+								
+									signatureHiding : 1,
+								
+							}
+	};
+	
+	if(uix.stickyNavigationMaxWidth == 0){uix.stickyNavigationMaxWidth = 999999}
+	if(uix.stickyNavigationMaxHeight == 0){uix.stickyNavigationMaxHeight = 999999}
+	if(uix.stickyNavigationPortraitMaxWidth == 0){uix.stickyNavigationPortraitMaxWidth = 999999}
+	if(uix.stickyNavigationPortraitMaxHeight == 0){uix.stickyNavigationPortraitMaxHeight = 999999}
+	
+	
+	
+	
+	$(document).ready(function() {
+		if ( $('#userBar').length ) {
+			uix.stickyItems['#userBar']= {normalHeight:parseInt('36'), stickyHeight:parseInt('36')}
+			
+			uix.stickyItems['#userBar'].options = {scrollSticky: uix.stickyGlobalScrollUp }
+		}
+	});
+	
+	
+	$(document).ready(function(){
+	
+	//put jquery code here
+	
+
+});
+	
+	uix.debug = function() {
+		result = "\n\n############============   Begin Copying Here   ============############\n\n";
+		result += "Error: the functions file was not found.";
+		result += "\n\n############============   End Copying Here   ============############\n\n";
+
+		console.log(result);
+	}
+
+</script>
+<script src="js/audentio/playerup/playerup/functions.min.js?_v=58e11cf1_1.5.0.1"></script>
+<script>
+	uix.adminJsError = function(errMsg) {
+		console.error(errMsg);
+		
+		
+	}
+	
+	uix.fixJsVisibility = function() {
+		var userBar = $('.hasJs #userBar');
+		var nodeList = $('.hasJs #forums, .hasJs .category_view .nodeList, .hasJs .watch_forums .nodeList');
+		if (userBar.length) userBar.css('display', 'block');
+		if (nodeList.length) nodeList.css('visibility', 'visible');
+	}
+	
+	uix.catchJsError = function(err) {
+		console.log("\n\n############============   Begin Copying Here   ============############\n\n")
+		var errMsg = "Uh Oh!  It looks like there's an error in your page's javascript.  There will likely be significant issues with the use of the forum until this is corrected.  If you are unable to resolve this and believe it is due to a bug in your Audentio Design theme, contact Audentio support and include a copy of the text between the designated areas from your javascript console.  This is the error: \n\n" + err ;
+		uix.fixJsVisibility();	
+		uix.adminJsError(errMsg);
+		console.log("\n\n");
+		console.log(err);
+		console.log("\n\n");
+		try {
+			uix.debug(true);
+		} catch (err) {
+			console.log("Unable to include uix.debug();");
+		}
+		
+		console.log("\n\n############============   End Copying Here   ============############\n\n");
+	}
+
+	$(document).ready(function(){
+		if (typeof(audentio) === 'undefined') {
+			var errMsg = 'Uh Oh!  It looks like the javascript for your theme was not found in /js/audentio/playerup/playerup/.\n\n';
+			if (uix.jsGlobal) {
+				errMsg += 'Your forum is set to use the same javascript directory for all your themes.  Consider disabling this or modifying the directory.  Options are located under Options > [UI.X] General.\n\n'
+			} else {
+				errMsg += 'Your theme has set the location of its javascript directory.  You may need to modify the javascript directory location style property located under [UI.X] Global Settings > Javascript Path.\n\n'
+			}
+			errMsg += 'If your files are in the directory specified, ensure that your file permissions allow them to be read.  There will likely be significant issues with the use of the forum until this is corrected.  If you are unable to resolve this, contact Audentio support.  This error has also been logged to the javascript console.';
+			
+			uix.fixJsVisibility();
+			
+			uix.adminJsError(errMsg);
+		} else if (uix.jsHeadVersion != uix.jsVersion) {
+			var errMsg = 'Uh Oh! It looks like the version of your javascript functions file does not match the version of your page_container_js_head template.  \n\nYour javascript functions file is version "' + uix.jsVersion + '". \nYour page_container_js_head is version "' + uix.jsHeadVersion + '".  \n\nIf your functions file version number is higher, ensure that you have merged all templates (especially page_container_js_head).  If your page_container_js_head version number is higher, ensure that you have correctly uploaded the latest version of the javascript functions file and that you have cleared anything that could cache an old version of the javascript (CDN / Cloudflare / etc.). \n\nThis issue could cause parts of your forum to not display or function correctly.  If this does not resolve the issue contact Audentio support.  This error has also been logged to the javascript console.';
+			uix.adminJsError(errMsg);
+		}
+	});
+</script>
+<script>
+	try {
+		uix.sticky.stickyMinDist = parseInt('50');
+		
+		$(document).ready(function(){
+			try {
+				
+				
+				
+				uix.initFunc();
+			} catch (err) {
+				uix.catchJsError(err);
+			}
+		});
+	} catch (err) {
+		uix.catchJsError(err);
+	}
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.js"></script>
+<link rel="apple-touch-icon" href="https://www.playerup.com/styles/default/xenforo/logo2.og.png" />
+<link rel="canonical" href="https://www.playerup.com/threads/galaxy-skin.3799926/" /><meta property="og:site_name" content="PlayerUp Accounts Marketplace. Player 2 Player Secure Platform." />
+<meta property="og:image" content="https://www.playerup.com/data/avatars/m/378/378362.jpg?1541011165" />
+<meta property="og:image" content="https://www.playerup.com/styles/default/xenforo/logo2.og.png" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="Hello everyone. I have a Galaxy Skin for FortNite for sell. I’m not sure an actual price it goes for so I’m negotiable. Me and my wife both got Notes &amp;..." />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.js"></script>
+
+<meta name="theme-color" content="#217BD5">
+
+<meta name="msapplication-navbutton-color" content="#217BD5">
+<meta name="msapplication-TileColor" content="#217BD5">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#217BD5">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<script src="https://use.fontawesome.com/1c7189a82c.js"></script>
+<body class="node678 node960 node1913 SelectQuotable">
+<style>
+            <!-- grid view -->
+.node .nodeControls {
+    display: none;
+}
+.nodeList .nodeList , .forum_view .nodeList li  {
+	width: 100%;
+	padding: 15px 0 0;
+}
+
+.nodeList .nodeList li , .forum_view .nodeList li {
+    width: 33.33%;
+    float: left;
+    height: 118px;
+    box-sizing: border-box;
+    padding: 3px 7px;
+}
+
+.nodeList .categoryForumNodeInfo, .nodeList .forumNodeInfo, .nodeList .pageNodeInfo, .nodeList .linkNodeInfo {
+    background-color: #1e1e1e;
+    border-color: #474747;
+    border-top: 1px solid #474747;
+    border-radius: 3px;
+    padding: 7px 0px 0px;
+    cursor: pointer;
+}
+
+.fc-featured-games .categoryForumNodeInfo, 
+.fc-featured-games .forumNodeInfo, .fc-featured-games .pageNodeInfo,
+.fc-featured-games .linkNodeInfo {
+	    box-shadow: inset 0px -1px 61px 28px rgba(0,0,0,1);
+}
+.node .forumNodeInfo .nodeIcon, .node .categoryForumNodeInfo .nodeIcon {
+	border-radius: 100%;
+}
+.node .nodeLastPost {
+	position: initial;
+	width: initial;
+	margin: 0px;
+	border: none;
+	border-top: 1px solid #2c2c2c;
+	overflow: initial;
+    	height: 23px;
+    	background-color: #181818;
+}
+
+.fc-featured-games .nodeLastPost {
+	background-color: transparent !important;
+	border-top: 1px solid transparent !important;	
+}
+
+.node .nodeText {
+    margin: 0px;
+    height: 70px;
+}
+
+.node .nodeLastPost .noMessages {
+	text-align: left;
+}
+
+.node .nodeText .nodeTitle {
+    font-size: 15px;
+    color: #2096e1;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 10px;
+    line-height: 20px;
+    margin-right: 4px;
+    height: 40px;
+}
+
+.node .nodeLastPost .lastThreadTitle {
+    height: 16px;
+    max-width: 190px;
+    font-size: 11px;
+    float: left;
+    padding-top: 4px;
+}
+
+.node .nodeLastPost .lastThreadTitle a {
+    color: #b3b3b3;
+}
+
+.node .nodeLastPost .lastThreadTitle span {
+    color: #2096e1;
+}
+
+.node .nodeLastPost .avatar img {
+    max-height: 17px;
+    border-radius: 100%;
+}
+
+.node .nodeLastPost .avatar , span.lastThreadMeta a {
+    float: right;
+}
+.DateTime.muted.lastThreadDate {
+    color: #fff;
+    font-size: 11px;
+}
+.node .nodeLastPost .avatar {
+        position: relative;
+    	left: -55px;
+	height: 17px;
+	margin-right: -10px;
+}
+.node .nodeLastPost .noMessages {
+    line-height: 20px;
+}
+.node .nodeIcon {
+    margin: 0px 10px 3px 6px;
+}
+
+.node .nodeStats {
+    margin-left: 10px;
+    margin-top: 11px;
+}
+
+.node .nodeLastPost .lastThreadMeta {
+	overflow: initial;	
+}
+.lastThreadMeta a {
+    width: 42px;
+    overflow: hidden;
+    position: relative;
+    left: 13px;
+    font-size: 11px;
+    color: #727272;
+    line-height: 20px;
+    margin-right: 5px;
+    text-overflow: ellipsis;
+ }
+ 
+.nodeStats i {
+    color: #696868;
+}
+
+.fc-featured-games .nodeStats i {
+    color: #2096e1;
+}
+
+i.fa.fa-clock-o {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.nodeList .categoryForumNodeInfo:hover, .nodeList .forumNodeInfo:hover,
+ .nodeList .pageNodeInfo:hover, .nodeList .linkNodeInfo:hover {
+	background-color: #217bd5;
+	border-top: 1px solid #3989da;
+	box-shadow: 0px 2px 4px 1px #1e1e1e;
+}
+
+.nodeList .categoryForumNodeInfo:hover .nodeTitle, .nodeList .forumNodeInfo:hover .nodeTitle,
+.nodeList .pageNodeInfo:hover .nodeTitle, .nodeList .linkNodeInfo:hover .nodeTitle ,
+.nodeList .categoryForumNodeInfo:hover .nodeStats i, .nodeList .forumNodeInfo:hover .nodeStats i,
+.nodeList .pageNodeInfo:hover .nodeStats i, .nodeList .linkNodeInfo:hover .nodeStats i ,
+.nodeList .categoryForumNodeInfo:hover .lastThreadTitle a, .nodeList .forumNodeInfo:hover .lastThreadTitle a,
+.nodeList .pageNodeInfo:hover .lastThreadTitle a, .nodeList .linkNodeInfo:hover .lastThreadTitle a , 
+.nodeList .categoryForumNodeInfo:hover .lastThreadMeta a, .nodeList .forumNodeInfo:hover .lastThreadMeta a,
+.nodeList .pageNodeInfo:hover .lastThreadMeta a, .nodeList .linkNodeInfo:hover .lastThreadMeta a ,
+.nodeList .categoryForumNodeInfo:hover .noMessages , .nodeList .forumNodeInfo:hover .noMessages ,
+.nodeList .pageNodeInfo:hover .noMessages , .nodeList .linkNodeInfo:hover .noMessages {
+	color: #fff; 	
+ }
+ 
+ .nodeList .categoryForumNodeInfo:hover .nodeLastPost , .nodeList .forumNodeInfo:hover .nodeLastPost ,
+.nodeList .pageNodeInfo:hover .nodeLastPost , .nodeList .linkNodeInfo:hover .nodeLastPost  {
+	    background-color: #1562af;
+	    border-top: 1px solid #3989da;
+}
+
+.nodeList .categoryForumNodeInfo:hover .lastThreadTitle span, .nodeList .forumNodeInfo:hover .lastThreadTitle span,
+.nodeList .pageNodeInfo:hover .lastThreadTitle span, .nodeList .linkNodeInfo:hover .lastThreadTitle span {
+	color: #181818;     
+}
+
+.sectionMain.funbox {
+    border: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.fc-featured-games  .nodeInfo.forumNodeInfo:hover {
+    box-shadow: inset 0px -1px 61px 28px #2096e1;
+}
+
+.fc-featured-games .nodeText .nodeTitle {
+	font-size: 18px;
+	margin: 0 11px;
+	color: #fff;
+}
+
+.nodeList.section  {
+	margin: 15px 0 !important;
+}
+/*=== /grid */
+
+@media (max-width: 1000px) {
+	.nodeList .nodeList li , .forum_view .nodeList li {
+	    width: 50%;
+	}
+}
+
+@media (max-width: 610px) {
+	.nodeList .nodeList li, .forum_view .nodeList li {
+	    width: 100%;
+	    height: initial;
+	}
+}
+     </style>
+<div id="loginBar">
+<div class="pageContent">
+<span class="helper"></span>
+</div>
+<div class="pageWidth">
+<h3 id="loginBarHandle">
+<label for="LoginControl"><a href="login/" class="concealed noOutline">Log in or Sign up</a></label>
+</h3>
+</div>
+</div>
+<div id="uix_paneContainer" class="off-canvas-wrapper">
+<aside class="uix_sidePane left-off-canvas-content">
+<div class="uix_sidePane_content uix_offCanvasNavigation">
+<ul>
+
+<li class="navTab home"><a href="https://www.playerup.com" class="navLink">Home</a></li>
+
+
+<li class="navTab PopupClosed"><a href="http://www.playerup.com/pages/middleman-escrow" class="navLink">Middleman</a></li>
+
+
+
+
+<li class="navTab forums selected">
+<a href="https://www.playerup.com/" class="navLink">Forums</a>
+<a href="https://www.playerup.com/" class="SplitCtrl" rel="subMenu"></a>
+<div class="subMenu">
+<ul class="blockLinksList">
+<li><a href="find-new/posts" rel="nofollow">Recent Posts</a></li>
+
+</ul>
+</div>
+</li>
+
+<li class="navTab resources ">
+<a href="https://www.playerup.com/shop/" class="navLink">Shop</a>
+<a href="https://www.playerup.com/shop/" class="SplitCtrl" rel="subMenu"></a>
+<div class="subMenu">
+<ul class="secondaryContent blockLinksList">
+<li><a href="shop/authors">Most Active Sellers</a></li>
+</ul>
+</div>
+</li>
+<li class="navTab BR_supportTicket ">
+<a href="https://www.playerup.com/support-tickets/knowledge-base" class="navLink">Support</a>
+<a href="https://www.playerup.com/support-tickets/knowledge-base" class="SplitCtrl" rel="subMenu"></a>
+<div class="subMenu">
+<ul class="secondaryContent blockLinksList">
+<li><a href="support-tickets/open">Submit Ticket</a></li>
+<li><a href="support-tickets/knowledge-base">Knowledge Base</a></li>
+</ul>
+</div>
+</li>
+
+<li class="navTab members ">
+<a href="https://www.playerup.com/members/" class="navLink">Members</a>
+<a href="https://www.playerup.com/members/" class="SplitCtrl" rel="subMenu"></a>
+<div class="subMenu">
+<ul class="blockLinksList">
+<li><a href="members/">Notable Members</a></li>
+<li><a href="online/">Current Visitors</a></li>
+<li><a href="members/banned">Banned Members</a></li>
+</ul>
+</div>
+</li>
+
+
+<li class="navTab PopupClosed"><a href="pages/membership" class="navLink">Upgrade</a></li>
+</ul>
+</div>
+</aside>
+<aside class="uix_sidePane right-off-canvas-content">
+<script>
+	var uix_offCanvasCurrentTab = 'uix_offCanvasVisitorMenu';
+	var uix_offCanvasVisitorConvoLoad = true;
+	var uix_offCanvasVisitorAlertLoad = true;
+	function uix_offCanvasVisitorTab(ele, id) {
+		jQuery('#uix_offcanvasVisitorTabs .navTab').removeClass('selected');
+		jQuery('.uix_sidePane_content.uix_offCanvasVisitorTabs ul').removeClass('activeTab').removeClass('leftTab').removeClass('rightTab');
+		
+		jQuery(ele).parent().addClass('selected');
+		jQuery('#' + id).addClass('activeTab');
+		if (id == 'uix_offCanvasVisitorMenu') {
+			if (uix_offCanvasCurrentTab == 'uix_offCanvasVisitorAlert') {
+				jQuery('#uix_offCanvasVisitorConvo').css('opacity', 0)
+				window.setTimeout(function(){jQuery('#uix_offCanvasVisitorConvo').css('opacity', 1);}, 300);
+			}
+			jQuery('#uix_offCanvasVisitorConvo').addClass('rightTab');
+			jQuery('#uix_offCanvasVisitorAlert').addClass('rightTab');
+		} else if (id == 'uix_offCanvasVisitorConvo') {
+			if (uix_offCanvasVisitorConvoLoad){
+				uix_offCanvasVisitorConvoLoad = false;
+				$('#uix_offCanvasVisitorConvo .listPlaceholder').load('conversations/popup #content div:not(.sidebar) .secondaryContent li:lt(5)');
+			}
+			jQuery('#uix_offCanvasVisitorMenu').addClass('leftTab');
+			jQuery('#uix_offCanvasVisitorAlert').addClass('rightTab');
+			
+			//XenForo.balloonCounterUpdate($('#VisitorExtraMenu_Counter'), 0);
+			//XenForo.balloonCounterUpdate($('#uix_VisitorExtraMenu_Counter'), 0);
+			//XenForo.balloonCounterUpdate($('#ConversationsMenu_Counter'), 0);
+			uix.fn.syncBaloon($('#ConversationsMenu_Counter'), $('#uix_ConversationsMenu_Counter'));
+		} else if (id == 'uix_offCanvasVisitorAlert') {
+			if (uix_offCanvasVisitorAlertLoad){
+				uix_offCanvasVisitorAlertLoad = false;
+				$('#uix_offCanvasVisitorAlert .listPlaceholder').load('account/alerts-popup #content div:not(.sidebar) .secondaryContent li:lt(5)');
+			}
+			
+			if (uix_offCanvasCurrentTab == 'uix_offCanvasVisitorMenu') {
+				jQuery('#uix_offCanvasVisitorConvo').css('opacity', 0)
+				window.setTimeout(function(){jQuery('#uix_offCanvasVisitorConvo').css('opacity', 1);}, 300);
+			}
+			jQuery('#uix_offCanvasVisitorConvo').addClass('leftTab');
+			jQuery('#uix_offCanvasVisitorMenu').addClass('leftTab');
+			
+			XenForo.balloonCounterUpdate($('#VisitorExtraMenu_Counter'), 0);
+			XenForo.balloonCounterUpdate($('#uix_VisitorExtraMenu_Counter'), 0);
+			XenForo.balloonCounterUpdate($('#AlertsMenu_Counter'), 0);
+			uix.fn.syncBaloon($('#AlertsMenu_Counter'), $('#uix_AlertsMenu_Counter'));
+		}
+		
+		uix_offCanvasCurrentTab = id;
+	}	
+</script>
+<div class="uix_sidePane_content uix_offCanvasVisitorTabs">
+<div class="uix_offCanvasTabsWrapper">
+<ul id="uix_offcanvasVisitorTabs" class="uix_offcanvasTabs">
+<li class="navTab selected"><a class="navLink" onclick="uix_offCanvasVisitorTab(this, 'uix_offCanvasVisitorMenu')"></a></li>
+<li class="navTab">
+<a onclick="uix_offCanvasVisitorTab(this, 'uix_offCanvasVisitorConvo')" class="navLink">
+<i class="uix_icon uix_icon-inbox"></i>
+<strong class="itemCount Zero" id="uix_ConversationsMenu_Counter" data-text="You have %d new unread conversation(s).">
+<span class="Total">0</span>
+</strong>
+</a>
+</li>
+<li class="navTab">
+<a onclick="uix_offCanvasVisitorTab(this, 'uix_offCanvasVisitorAlert')" class="navLink">
+<i class="uix_icon uix_icon-alerts"></i>
+<strong class="itemCount Zero" id="uix_AlertsMenu_Counter" data-text="You have %d new alert(s).">
+<span class="Total">0</span>
+</strong>
+</a>
+</li>
+</ul>
+</div>
+<div class="uix_offCanvasPanes">
+<ul class="activeTab" id="uix_offCanvasVisitorMenu">
+<li class="navTab full">
+<div class="primaryContent menuHeader">
+<a class="avatar Av0m NoOverlay plainImage" title="View your profile" data-avatarhtml="true"><span class="img m" style="background-image: url('styles/playerup/xenforo/avatars/avatar_m.png')"></span></a>
+<h3><a href="members/0/" class="concealed" title="View your profile"></a></h3>
+<div class="muted">Guest</div>
+</div>
+</li>
+<li class="fl navTab"><a class="navLink" href="members/0/">Your Profile Page</a></li>
+<li class="navTab"><a class="navLink" href="account/contact-details">Contact Details</a></li>
+<li class="navTab"><a class="navLink" href="account/privacy">Privacy</a></li>
+<li class="navTab"><a class="navLink" href="account/preferences" class="OverlayTrigger">Preferences</a></li>
+<li class="navTab"><a class="navLink" href="account/alert-preferences">Alert Preferences</a></li>
+<li class="navTab"><a class="navLink" href="account/external-accounts">External Accounts</a></li>
+<li class="navTab"><a class="navLink" href="account/security">Password</a></li>
+
+<li class="navTab"><a class="navLink" href="account/likes">Likes You've Received</a></li>
+<li class="navTab"><a class="navLink" href="search/member?user_id=0">Your Content</a></li>
+<li class="navTab"><a class="navLink" href="account/following">People You Follow</a></li>
+<li class="navTab"><a class="navLink" href="account/ignored">People You Ignore</a></li>
+<li><a href="support-tickets/">Your Tickets</a></li>
+<li class="navTab"><a href="logout/" class="LogOut navLink">Log Out</a></li>
+<li class="navTab full">
+<form action="account/toggle-visibility" method="post" class="AutoValidator visibilityForm navLink">
+<label><input type="checkbox" name="visible" value="1" class="SubmitOnChange" checked="checked" />
+Show online status</label>
+<input type="hidden" name="_xfToken" value="" />
+</form>
+</li>
+</ul>
+<ul id="uix_offCanvasVisitorConvo" class="rightTab">
+<div class="menuHeader primaryContent">
+<h3>
+<span class="Progress InProgress"></span>
+<a href="conversations/" class="concealed">Conversations</a>
+</h3>
+</div>
+<div class="listPlaceholder"></div>
+<li class="navTab"><a class="navLink" href="conversations/">Show All...</a></li>
+</ul>
+<ul id="uix_offCanvasVisitorAlert" class="rightTab">
+<div class="menuHeader primaryContent">
+<h3>
+<span class="Progress InProgress"></span>
+<a href="account/alerts" class="concealed">Alerts</a>
+</h3>
+</div>
+<div class="listPlaceholder"></div>
+<li class="navTab"><a href="account/alert-preferences" class="floatLink navLink">Alert Preferences</a></li>
+<li class="navTab"><a class="navLink" href="account/alerts">Show All...</a></li>
+</ul>
+</div>
+</div>
+</aside>
+<div class="inner-wrapper">
+<a href="#" class="exit-off-canvas"></a>
+<div class="uix_wrapperFix" style="height: 1px; margin-bottom: -1px;"></div>
+<div id="uix_wrapper">
+<div id="headerMover">
+<div id="headerProxy"></div>
+<header>
+<div id="header">
+<style>
+
+
+    @media (max-width:800px) {
+        .pace {
+        display: none;
+        }
+    }
+
+
+</style>
+<script src="js/dadparvar/loadingeffects/pace.js"></script>
+<link href="styles/default/dadparvar/loadingeffects/themes/blue/pace-theme-corner-indicator.css" rel="stylesheet" />
+<script>
+!function($, window, document, _undefined)
+{
+  XenForo.AjaxProgress = function()
+  {
+    var show = function()
+    {
+      Pace.start();
+    },
+
+    hide = function()
+    {
+      Pace.stop();
+    };
+
+    $(document).bind(
+    {
+      ajaxStart: function(e)
+      {
+        XenForo._AjaxProgress = true;
+        show();
+      },
+
+      ajaxStop: function(e)
+      {
+        XenForo._AjaxProgress = false;
+        hide();
+      },
+
+      PseudoAjaxStart: function(e)
+      {
+        show();
+      },
+
+      PseudoAjaxStop: function(e)
+      {
+        hide();
+      }
+    });
+  };
+}
+(jQuery, this, document);
+</script>
+<div id="logoBlock">
+<div class="pageContent">
+<div class="pageWidth">
+<div id="logo"><a href="https://www.playerup.com">
+<span></span>
+<img src="styles/playerup/playerup/logo1.png" alt="PlayerUp Accounts Marketplace. Player 2 Player Secure Platform." />
+</a></div>
+<div id="rgHolder">
+<div class="sBox" id="sBox">
+<div class="fc_sicon_wrap"><i class="fa fa-search" aria-hidden="true"></i></div>
+<input type="text" onblur="if (this.value == '')
+                    this.value = this.title" onfocus="if (this.value == this.title)
+                    this.value = ''" title="Enter Your Game" value="Enter Your Game" class="" id="sText">
+<ul id="sResult" style="display: none;"></ul>
+<div id="sClear" style="background-image: url(styles/playerup/ajaxsearch/cancel-round.png); display: block;"></div>
+</div>
+</div>
+<script>
+					function sUpdateResult(pass_keyword) {
+	var keyword = jQuery('#rgHolder #sText').val();
+	
+    var cancel_logo = 'url("styles/playerup/ajaxsearch/cancel-round.png")';
+
+    if (keyword.length >= 2 && pass_keyword == keyword) {
+        jQuery("#sClear").css('background-image', 'url("styles/playerup/ajaxsearch/loading_16X16.gif")');
+        var sResultAjax = jQuery.ajax({
+            type: "GET",
+            url: "ajaxsearch/"+keyword+"/read/",
+            data: "keyword=" + keyword,
+            dataType: "json",
+	
+            success: function(data) {
+                jQuery("#sClear").css('background-image', cancel_logo);
+                
+                if (keyword == jQuery('#sText').val()) {
+                    jQuery("#sResult").html('');
+                    if (data.length == 0) {
+                        jQuery("#sResult").append('<li class="sResultLiNone"><div class="sGames"><div>No Matching Results.</div></div></li>');
+                        jQuery("#sResult").append('<li><div id="sBottom"></div></li>');
+                    } else {
+                        jQuery.each(data, function(key, val) {
+                            jQuery("#sResult").append('<li class="sResultLi"><div class="sGames" onclick="window.location.href=\'' + val.link + '\'"><font>' + val.title+ '</font></div></li>')
+                        });
+                        jQuery("#sResult").append('<li><div id="sBottom"><div class="main_btn gray_short_btn"><a href="pages/games/" style="width:144px"><font>Browse All Games</font><span></span></a></div></div></li>');
+                    }
+                    showSearchResult();
+                }
+            }
+        });
+    } else if (keyword.length >= 1) {
+        jQuery("#sClear").show();
+    } else {
+        jQuery("#sClear").css('background-image', cancel_logo);
+        hideSearchResultNow();
+    }
+}
+jQuery('#sText').keyup(function() {
+
+    jQuery("#sClear").css('background-image', 'url("styles/playerup/ajaxsearch/loading_16X16.gif")');
+    current_keyword = jQuery('#sText').val().replace(/([\\'"])/g, "\\$1");
+	sUpdateResult(current_keyword);
+});
+
+function hideSearchResult() {
+    setTimeout("hideSearchResultNow()", 1000);
+}
+
+function hideSearchResultNow() {
+    jQuery("#sBox").removeClass('sBoxSelected');
+    jQuery("#sResult").hide();
+}
+
+function showSearchResult() {
+    jQuery("#sBox").addClass('sBoxSelected');
+    jQuery("#sResult").show();
+
+    var keyword = jQuery('#sText').val();
+    if (keyword.length >= 1) {
+        jQuery("#sClear").show();
+    }
+}
+
+function gotoSearchAllGames(pass_keyword) {
+    document.location.href = "ajaxsearch/" + pass_keyword+"/showallresults";
+}
+
+jQuery("#sClear").click(function() {
+    jQuery("#sText").val('');
+    jQuery("#sText").focus();
+    jQuery("#sClear").hide();
+    hideSearchResultNow();
+});
+
+jQuery("#sText").focus(function() {
+    if (jQuery(this).val().length >= 1) {
+        showSearchResult();
+    } else {
+        hideSearchResult();
+    }
+});
+
+jQuery("#sText").blur(function() {
+    hideSearchResult();
+    if (jQuery(this).val().length < 1) {
+        jQuery("#sClear").hide();
+    }
+});
+	 </script>
+<span class="helper"></span>
+</div>
+</div>
+</div>
+<div id="navigation" class=" ">
+<div class="sticky_wrapper">
+<div class="uix_navigationWrapper">
+<div class="pageContent">
+<nav>
+<div class="navTabs">
+<div class="pageWidth">
+<ul class="publicTabs navLeft">
+<li class="navTab uix_offCanvas_trigger PopupClosed" id="uix_paneTriggerLeft">
+<a class="navLink" href="#">
+<i class="uix_icon uix_icon-navTrigger uix_icon-navTriggerLeft"></i> Menu
+</a>
+</li>
+
+
+
+
+<li class="navTab forums selected">
+<a href="https://www.playerup.com/" id="fcForums" class="navLink">Forums</a>
+<a href="https://www.playerup.com/" class="SplitCtrl" rel="Menu"></a>
+<div class="tabLinks forumsTabLinks">
+<div class="pageWidth">
+<div class="primaryContent menuHeader">
+<h3>Forums</h3>
+<div class="muted">Quick Links</div>
+</div>
+<ul class="secondaryContent blockLinksList">
+
+<li><a href="find-new/posts" rel="nofollow">Recent Posts</a></li>
+
+</ul>
+<div id="searchBar" class="hasSearchButton">
+<i id="QuickSearchPlaceholder" class="uix_icon uix_icon-search" title="Search"></i>
+<fieldset id="QuickSearch">
+<form action="search/search" method="post" class="formPopup">
+<div class="primaryControls">
+
+<i class="uix_icon uix_icon-search" onclick='$("#QuickSearch form").submit()'></i>
+<input type="search" name="keywords" value="" class="textCtrl" placeholder="Enter Keywords and Search..." results="0" title="Enter your search and hit enter" id="QuickSearchQuery" />
+
+
+</div>
+<div class="secondaryControls">
+<div class="controlsWrapper">
+
+<dl class="ctrlUnit">
+<dt></dt>
+<dd><ul>
+<li><label><input type="checkbox" name="title_only" value="1" id="search_bar_title_only" class="AutoChecker" data-uncheck="#search_bar_thread" /> Search titles only</label></li>
+</ul></dd>
+</dl>
+<dl class="ctrlUnit">
+<dt><label for="searchBar_users">Posted by Member:</label></dt>
+<dd>
+<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" />
+<p class="explain">Separate names with a comma.</p>
+</dd>
+</dl>
+<dl class="ctrlUnit">
+<dt><label for="searchBar_date">Newer Than:</label></dt>
+<dd><input type="date" name="date" value="" class="textCtrl" id="searchBar_date" /></dd>
+</dl>
+<dl class="ctrlUnit">
+<dt></dt>
+<dd><ul>
+<li><label title="Search only Galaxy Skin"><input type="checkbox" name="type[post][thread_id]" value="3799926" id="search_bar_thread" class="AutoChecker" data-uncheck="#search_bar_title_only, #search_bar_nodes" /> Search this thread only</label></li>
+<li><label title="Search only Fortnite Accounts - Buy Sell Trade"><input type="checkbox" name="nodes[]" value="678" id="search_bar_nodes" class="Disabler AutoChecker" checked="checked" data-uncheck="#search_bar_thread" /> Search this forum only</label>
+<ul id="search_bar_nodes_Disabler">
+<li><label><input type="checkbox" name="type[post][group_discussion]" value="1" id="search_bar_group_discussion" class="AutoChecker" data-uncheck="#search_bar_thread" /> Display results as threads</label></li>
+</ul></li>
+</ul></dd>
+</dl>
+</div>
+
+<dl class="ctrlUnit submitUnit">
+<dt></dt>
+<dd>
+<input type="submit" value="Search" class="button primary Tooltip" title="Find Now" />
+<a href="search/" class="button moreOptions Tooltip" title="Advanced Search">More...</a>
+<div class="Popup" id="commonSearches">
+<a rel="Menu" class="button NoPopupGadget Tooltip" title="Useful Searches" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+<div class="Menu">
+<div class="primaryContent menuHeader">
+<h3>Useful Searches</h3>
+</div>
+<ul class="secondaryContent blockLinksList">
+
+<li><a href="find-new/posts?recent=1" rel="nofollow">Recent Posts</a></li>
+
+</ul>
+</div>
+</div>
+</dd>
+</dl>
+</div>
+<input type="hidden" name="_xfToken" value="" />
+</form>
+</fieldset>
+</div>
+</div>
+</div>
+</li>
+
+<li class="navTab PopupClosed"><a href="http://www.playerup.com/pages/middleman-escrow" class="navLink">Middleman</a></li>
+
+<li id="Shop" class="navTab resources Popup PopupControl PopupClosed">
+<a href="https://www.playerup.com/shop/" class="navLink">Shop</a>
+<a href="https://www.playerup.com/shop/" class="SplitCtrl" rel="Menu"></a>
+<div class="Menu JsOnly tabMenu resourcesTabLinks">
+<div class="primaryContent menuHeader">
+<h3>Shop</h3>
+<div class="muted">Quick Links</div>
+</div>
+<ul class="secondaryContent blockLinksList">
+<li><a href="shop/authors">Most Active Sellers</a></li>
+</ul>
+</div>
+</li>
+<li id="Support" class="navTab BR_supportTicket Popup PopupControl PopupClosed">
+<a href="https://www.playerup.com/support-tickets/knowledge-base" class="navLink">Support</a>
+<a href="https://www.playerup.com/support-tickets/knowledge-base" class="SplitCtrl" rel="Menu"></a>
+<div class="Menu JsOnly tabMenu BR_supportTicketTabLinks">
+<div class="primaryContent menuHeader">
+<h3>Support</h3>
+<div class="muted">Quick Links</div>
+</div>
+<ul class="secondaryContent blockLinksList">
+<li><a href="support-tickets/open">Submit Ticket</a></li>
+<li><a href="support-tickets/knowledge-base">Knowledge Base</a></li>
+</ul>
+</div>
+</li>
+
+<li class="navTab PopupClosed"><a href="pages/membership" class="navLink">Upgrade</a></li>
+
+<li class="navTab members Popup PopupControl PopupClosed">
+<a style="display:none" href="https://www.playerup.com/members/" class="navLink">Members</a>
+<a style="display:none" href="https://www.playerup.com/members/" class="SplitCtrl" rel="Menu"></a>
+<div class="Menu JsOnly tabMenu membersTabLinks">
+<div class="primaryContent menuHeader">
+<h3>Members</h3>
+<div class="muted">Quick Links</div>
+</div>
+<ul class="secondaryContent blockLinksList">
+
+
+<li><a href="search/?type=user">Search Members</a></li>
+<li><a href="members/banned">Banned Members</a></li>
+</ul>
+</div>
+</li>
+
+
+<li class="navTab navigationHiddenTabs Popup PopupControl PopupClosed" style="display:none">
+<a rel="Menu" class="navLink NoPopupGadget uix_dropdownDesktopMenu"><i class="uix_icon uix_icon-navTrigger"></i><span class="uix_hide menuIcon">Menu</span></a>
+<div class="Menu JsOnly blockLinksList primaryContent" id="NavigationHiddenMenu"></div>
+</li>
+
+</ul>
+</div>
+</div>
+<span class="helper"></span>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="content" class="thread_view">
+<div class="pageWidth">
+<div class="pageContent">
+
+<div class="mainContainer_noSidebar">
+<div class="breadBoxTop  ">
+<nav>
+<fieldset class="breadcrumb">
+
+<div class="boardTitle"><strong>PlayerUp Accounts Marketplace. Player 2 Player Secure Platform.</strong></div>
+<span class="crumbs">
+<span class="crust homeCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+<a class="crumb" rel="up" itemprop="url"><span itemprop="title">Home</span></a>
+<span class="arrow"><span></span></span>
+</span>
+<span class="crust selectedTabCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+<a class="crumb" rel="up" itemprop="url"><span itemprop="title">Forums</span></a>
+<span class="arrow"><span>&gt;</span></span>
+</span>
+<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+<a class="crumb" rel="up" itemprop="url"><span itemprop="title">Featured Marketplaces</span></a>
+<span class="arrow"><span>&gt;</span></span>
+</span>
+<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+<a class="crumb" rel="up" itemprop="url"><span itemprop="title">Fortnite Accounts - Buy Sell Trade</span></a>
+<span class="arrow"><span>&gt;</span></span>
+</span>
+<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+<a class="crumb" rel="up" itemprop="url"><span itemprop="title">Fortnite Accounts - Buy Sell Trade</span></a>
+<span class="arrow"><span>&gt;</span></span>
+</span>
+</span>
+</fieldset>
+</nav>
+</div> 
+
+<div class="titleBar">
+<h1>&nbsp;<span class="prefix prefixWTS">Selling</span>&nbsp;<span class="prefix prefixblue8">1000+ Wins</span> &nbsp;<span class="prefix prefixblue8">Email Included</span> &nbsp;<span class="prefix prefixblue9">All Platforms</span> Rare Fortnite Account</h1>
+
+</div>
+
+<style>
+.fc_bsbtn_wrap{float: right;margin-top: -2px;}
+.fc_mman_btn,
+.fc_mman_btn:hover,
+.fc_mman_btn:focus,
+.fc_mman_btn:active,
+.button[href]:active
+{
+    font-size: 14px !important;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+
+.tagBlock {
+       margin: 10px 0 20px;
+}
+</style>
+<div class="fc_bsbtn_wrap">
+<span class="button fc_buyers_btn  fc_mman_btn" style="float:right">Buyer Protection</span>
+    <span class="button fc_buyers_btn  fc_mman_btn" style="float:right">Seller Protection</span>
+</div>
+<div class="tagBlock TagContainer">
+Tags:
+<ul class="tagList">
+    <li><span class="tag"><span class="arrow"></span>rare account</span></li>
+    <li><span class="tag"><span class="arrow"></span>renegade raider</span></li>
+    <li><span class="tag"><span class="arrow"></span>aerial assualt trooper</span></li>
+    <li><span class="tag"><span class="arrow"></span>og skull</span></li>
+</ul>
+</div>
+
+<div class="pageNavLinkGroup">
+<div class="linkGroup SelectionCountContainer">
+</div>
+</div>
+<form action="inline-mod/post/switch" method="post" class="InlineModForm section" data-cookieName="posts" data-controls="#InlineModControls" data-imodOptions="#ModerationSelect option">
+<ol class="messageList" id="messageList">
+<li id="post-9835163" class="sectionMain message     " data-author="NotJerry">
+<div class="uix_message ">
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
+<div class="messageUserBlock ">
+<div class="avatarHolder">
+<div class="uix_avatarHolderInner">
+<span class="helper"></span>
+<img src="https://i.pinimg.com/736x/79/84/11/798411a349d99dc81d0d0ea828991f2d.jpg?b=t" width="100" height="100" alt="OGUser" />
+
+</div>
+</div>
+<h3 class="userText">
+<script language="javascript">
+var popupWindow = null;
+function centeredPopup(url,winName,w,h,scroll){
+LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+settings =
+'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+popupWindow = window.open(url,winName,settings)
+}
+</script>
+<div class="uix_userTextInner">
+<div class="uix_usernameWrapper">
+<span class="style2">OGUsers</span>
+<div class="uix_threadSlide">
+<span class="uix_threadSlideToggle Tooltip" title="Toggle">
+<span class="uix_threadSlideToggleExpand">
+<i class="uix_icon uix_icon-expand"></i>
+<span class="uix_threadSlidePhrase">Expand</span>
+</span>
+<span class="uix_threadSlideToggleCollapse">
+<i class="uix_icon uix_icon-collapse"></i>
+<span class="uix_threadSlidePhrase">Collapse</span>
+</span>
+</span>
+</div>
+</div>
+<em class="userTitle" itemprop="title">Unverified Member</em>
+</div>
+
+</h3>
+<h3 class="userTitle userText">
+
+
+<div class="feedbackStatsPostbit"><span class="Positive">53</span>
+&nbsp;
+<span class="Negative">0</span>
+&nbsp;
+<span class="Neutral">1</span>
+</div>
+
+
+</h3>
+<!--<span class="UserOffline"><span></span>Offline</span>-->
+<div class="extraUserInfo">
+<dl class="pairsJustified">
+<dt>Joined:</dt>
+<dd>10/31/16</dd>
+</dl>
+<dl class="pairsJustified">
+<dt>Posts:</dt>
+<dd>183</dd>
+</dl>
+<dl class="pairsJustified">
+<dt>Likes Received:</dt>
+<dd>328</dd>
+</dl>
+
+</div>
+<script language="javascript">
+var popupWindow = null;
+function centeredPopup(url,winName,w,h,scroll){
+LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+settings =
+'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+popupWindow = window.open(url,winName,settings)
+}
+</script>
+<span class="arrow"><span></span></span>
+</div>
+</div>
+<div class="messageInfo primaryContent">
+<div class="messageContent">
+<div class="pairsRows secondaryContent fc_buy_now">
+<dl>
+<dt>Price $:</dt>
+<dd>
+100
+</dd>
+</dl>
+<dl>
+<dt>Buy Now Link:</dt>
+<dd>
+<a href="https://www.playerup.com/middleman/?page_id=5&amp;form=cart&amp;p_key=10345946_46826">Buy Now</a>
+</dd>
+<script>
+		$(".fc_buy_now a").first().text('Buy Now');
+	</script>
+</dl>
+</div>
+<article>
+<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+<script>function bralLogAutoLink($word,$replace){XenForo.ajax("index.php?replace-log/log-auto-link",{word: $word,replace: $replace},function(json){if(XenForo.hasResponseError(json) !== false){return true;}},{cache: false});}</script>Hello everyone. I have a rare Fortnite account for sale. Price is NON-NEGOTIABLE.<br />
+<br />
+Account Screenshots<br /><blockquote class="imgur-embed-pub" lang="en" data-id="a/6AaVYNG"><a href="https://imgur.com/6AaVYNG">RENEGADE RAIDER</a></blockquote><script async src="https://s.imgur.com/min/embed.js" charset="utf-8"></script>
+<br />
+<div class="messageTextEndMarker">&nbsp;</div>
+</blockquote>
+</article>
+</div>
+<div class="messageDetails">
+<a href="posts/9835163/" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/9835163/permalink">#1</a>
+<span class="item muted">
+<span class="authorEnd">OGUser,</span>
+<a href="posts/9835163/" title="Permalink" class="datePermalink"><span class="DateTime" title="1/20/19 at 12:28 PM">2/27/19</span></a>
+</span>
+</div>
+<div id="likes-post-9835163"></div>
+</div>
+</div>
+</li>
+</ol>
+<input type="hidden" name="_xfToken" value="" />
+</form>
+<div class="pageNavLinkGroup">
+<div class="linkGroup" style="display: none"><a href="javascript:" class="muted JsOnly DisplayIgnoredContent Tooltip" title="Show hidden content by ">Show Ignored Content</a></div>
+</div>
+
+<form action="login/login" method="post" class="xenForm eAuth" id="login" style="display:none">
+<ul id="eAuthUnit">
+<li><a href="register/facebook?reg=1" class="fbLogin" tabindex="110"><span>Log in with Facebook</span></a></li>
+<li><a href="register/twitter?reg=1" class="twitterLogin" tabindex="110"><span>Log in with Twitter</span></a></li>
+<li><span class="googleLogin GoogleLogin JsOnly" tabindex="110" data-client-id="1056747526610.apps.googleusercontent.com" data-redirect-url="register/google?code=__CODE__&amp;csrf=i4p45tJPS_8UKoLI"><span>Log in with Google</span></span></li>
+<li><a href="register/steam?reg=1" class="steamLogin" tabindex="110"><span>Log in with Steam</span></a></li>
+</ul>
+<div class="ctrlWrapper">
+<dl class="ctrlUnit">
+<dt><label for="LoginControl">Your name or email address:</label></dt>
+<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
+</dl>
+<dl class="ctrlUnit">
+<dt>
+<label for="ctrl_password">Do you already have an account?</label>
+</dt>
+<dd>
+<ul>
+<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
+No, create an account now.</label></li>
+<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
+Yes, my password is:</label></li>
+<li id="ctrl_registered_Disabler">
+<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
+<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Forgot your password?</a></div>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="ctrlUnit submitUnit">
+<dt></dt>
+<dd>
+<input type="submit" class="button primary" value="Log in" tabindex="104" data-loginPhrase="Log in" data-signupPhrase="Sign up" />
+<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Stay logged in</label>
+</dd>
+</dl>
+    </div>
+</form>
+</div>
+<div class="breadBoxBottom">
+<nav>
+<fieldset class="breadcrumb">
+<a href="misc/quick-navigation-menu?selected=node-678" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><i class="uix_icon uix_icon-sitemap"></i></a>
+<div class="boardTitle"><strong>PlayerUp Accounts Marketplace. Player 2 Player Secure Platform.</strong></div>
+<span class="crumbs">
+<span class="crust homeCrumb">
+<a href="https://www.playerup.com" class="crumb"><span>Home</span></a>
+<span class="arrow"><span></span></span>
+</span>
+<span class="crust selectedTabCrumb">
+<a href="https://www.playerup.com/" class="crumb"><span>Forums</span></a>
+<span class="arrow"><span>&gt;</span></span>
+</span>
+<span class="crust">
+<a href="https://www.playerup.com/#featured-marketplaces.960" class="crumb"><span>Featured Marketplaces</span></a>
+<span class="arrow"><span>&gt;</span></span>
+</span>
+<span class="crust">
+<a href="https://www.playerup.com/accounts/fortniteaccounts/" class="crumb"><span>Fortnite Accounts - Buy Sell Trade</span></a>
+<span class="arrow"><span>&gt;</span></span>
+</span>
+<span class="crust">
+<a href="https://www.playerup.com/accounts/fortniteaccount/" class="crumb"><span>Fortnite Accounts - Buy Sell Trade</span></a>
+<span class="arrow"><span>&gt;</span></span>
+</span>
+</span>
+</fieldset>
+</nav></div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="footer">
+<div class="pageContent">
+<div class="pageWidth">
+<ul class="footerLinks">
+<li><a href="https://www.playerup.com" class="homeLink">Home</a></li>
+<li><a href="https://www.playerup.com/support/newticket">Contact Us</a></li>
+<li><a href="help/">Help</a></li>
+<li><a href="help/terms">Terms of Service</a></li>
+<li class="topLink"><a href="/threads/galaxy-skin.3799926/#XenForo"><i class="uix_icon uix_icon-jumpToTop"></i> <span class="uix_hide">Top</span></a></li>
+</ul>
+</div>
+<span class="helper"></span>
+</div>
+</div>
+<div id="uix_stickyFooterSpacer"></div>
+<div id="uix_footer_columns">
+<div class="pageContent">
+<div class="pageWidth">
+<ul class="uix_footer_columns_container uix_footer_columns_4">
+<li class="uix_footer_columns_col1">
+<div class="uix_footer_columnWrapper">
+<h3>
+<i class="uix_icon fa fa-caret-square-o-right"></i>
+Company
+</h3>
+We are the world's first company devoted to legally protecting Player-2-Player Account Transactions. We are a free online platform that has an optional Middleman Service to safeguard your transactions.
+<br><br><br><br><br>
+
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+<div class="footerLegal">
+<div class="pageContent">
+<div class="pageWidth">
+<div class="copyright">Copyright © 2019, All Rights Reserved<br><br></div>
+</ul>
+<span class="helper"></span>
+</div>
+</div>
+</div>
+<div id="toTop" class="SedoGoToTop normal JsOnly " data-id="sedo_gototop" data-easing="linear" data-container-over="toTopHover" data-scrollspeed="300" data-min="200" data-indelay="600" data-outdelay="400" data-adv="1" data-timeout="3000" data-bottom-delta="0" data-top-delta="0">
+<ul>
+<li class="AdvUp">▲</li>
+<li class="AdvDown">▼</li>
+</ul>
+</div>
+</footer>
+<script>
+
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1551311510,
+		today: 1551243600,
+		todayDow: 3
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "0.5",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 100,
+		closeSpeed: 50,
+		mask:
+		{
+			color: "#000",
+			opacity: "0.6",
+			loadSpeed: 100,
+			closeSpeed: 50
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"SV_rrssbDefault":true,"thread_view":true,"thread_view_watchers":true,"message":true,"BRAMB_trigger":true,"bb_code":true,"message_user_info":true,"xcxt_postbit":true,"xcxt_postbit_stats_numbers":true,"RT_UserOnlineRibbon":true,"RT_UserOnlineRibbon_Responsive":true,"custom_field_view":true,"fc_custom_changes":true,"fc_header_footer":true,"fc_toggle_width":true,"login_bar":true,"moderator_bar":true,"ajaxsearchboxstyle":true,"facebook":true,"twitter":true,"google":true,"steam_login_bar":true,"uix_extendedFooter":true,"GoToTop_purecss":true,"js\/ForumCube\/CFieldsPost\/CFieldPost.js?_v=58e11cf1":true,"js\/ForumCube\/SiteMapToggle\/sitetoggle.js?_v=58e11cf1":true,"js\/ForumCube\/GrabFormData\/fc1-grabformdataa.js?_v=58e11cf1":true,"js\/sedo\/gototop\/xen.ui.totop.js?_v=58e11cf1":true},
+	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "58e11cf1",
+	_noRtnProtect: false,
+	_noSocialLogin: false
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Cancel",
+
+	a_moment_ago:    "A moment ago",
+	one_minute_ago:  "1 minute ago",
+	x_minutes_ago:   "%minutes% minutes ago",
+	today_at_x:      "Today at %time%",
+	yesterday_at_x:  "Yesterday at %time%",
+	day_x_at_time_y: "%day% at %time%",
+
+	day0: "Sunday",
+	day1: "Monday",
+	day2: "Tuesday",
+	day3: "Wednesday",
+	day4: "Thursday",
+	day5: "Friday",
+	day6: "Saturday",
+
+	_months: "January,February,March,April,May,June,July,August,September,October,November,December",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "The following error occurred",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Logging in",
+	click_image_show_full_size_version: "Click this image to show the full-size version.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "247434185765932";
+XenForo.Facebook.forceInit = false;
+jQuery.extend(XenForo.phrases,
+{
+  BRMPS_prefixes:    "Prefixes"
+});
+
+ $( document ).ready(function() {
+ 
+        	$( ".fc_tag_title" ).each(function( index ) {
+        	         var bg = $(this).css('background-image');
+        		var other_class  = $(this).attr('class').split(' ')[0];
+        		$('<style>.'+other_class+' strong:before{background-image:'+bg+'}</style>').appendTo('head');
+        		
+		});
+		
+	});
+
+var fc_value = $("input[name=form_id]").val();
+$(".form_respond").addClass("fc_step" + fc_value );
+</script>
+<script type="text/javascript" src="./js/rrssb/rrssb.min.js">var fc_value = $("input[name=form_id]").val();
+$(".form_respond").addClass("fc_step" + fc_value );
+</script>
+<script type="text/javascript">
+var docUrl = window.location.href;
+var docTitle = document.title.split(" |")[0];
+if (typeof rrssb== 'function') { 
+$('.share-container').rrssb({ description: 'Buy, Sell, Trade Video Game Accounts and MMO Characters. Most Secure Player 2 Player Site.', emailSubject: 'I thought you might like this', image: 'https://www.playerup.com/styles/default/xenforo/logo2.og.png', title: docTitle, tweetvia:'PlayerUp', url: docUrl });
+}
+</script>
+</div>
+<div class="uix_wrapperFix" style="height: 1px; margin-top: -1px;"></div>
+</div>
+</div>
+<script>
+
+</script>
+
+
+<script type="text/javascript">
+if (matchMedia('only screen and (min-width: 641px)').matches) 
+var __lc = {};
+__lc.license = 1642261;
+__lc.group = 2;
+
+(function() {
+	var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+	lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script>
+
+
+<script>
+
+            if($('#fc_seller').length)
+
+   	      var seller=$("#fc_seller").text();
+  	      var login_user=$('#fc_user').attr('loginuser');
+  	    
+  	     if(seller == login_user)
+  	     {
+  	     $(".sellerbutton").show();
+  	     }
+  	     else{
+  	      $(".sellerbutton").remove();
+  	     }
+</script>
+<script>
+
+	
+	$(".navigationSideBar .heading , .navigationSideBar .subHeading").click(function(){
+		$(this).next().find("ul").slideToggle();
+		$(this).toggleClass("fc_heading_account");
+		$(this).parents(".fc_section_wrap").siblings().find("h4").removeClass("fc_heading_account");
+		$(this).parent(".section").siblings().children("h4").removeClass("fc_heading_account");
+	});
+
+</script>
+</body>
+</html>
