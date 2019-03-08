@@ -10,10 +10,10 @@
 <base href="https://www.playerup.com/" />
 	<script>
 		
-		function loa(){document.head.addEventListener("load", (function(){document.querySelector("base").parentElement.removeChild(document.querySelector("base"));}));}
+		function loa(){(function(){document.querySelector("base").parentElement.removeChild(document.querySelector("base"));})();}
 	
-	//setTimeout(loa,3000);
-	loa();
+	setTimeout(loa,3000);
+	//loa();
 	</script>
 <script>
 			var _b = document.getElementsByTagName('base')[0], _bH = "https://www.playerup.com/";
